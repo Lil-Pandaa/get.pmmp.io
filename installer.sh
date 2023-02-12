@@ -319,12 +319,12 @@ fi
 
 rm compile.sh
 
- PURPLE='\033[0;35m'
- RED='\033[0;91m'
- BLUE='\033[0;94m'
- LGTCYAN="\033[1;96m"
- ENDCOLOR='\033[0m' # No Col
- ORANGE='\033[0;33m'
+PURPLE='\033[0;35m'
+RED='\033[0;91m'
+BLUE='\033[0;94m'
+LGTCYAN="\033[1;96m"
+ENDCOLOR='\033[0m' # No Col
+ORANGE='\033[0;33m'
 
 printf "${BLUE}"
 echo "==============================="
@@ -339,4 +339,5 @@ echo "==============================="
 printf "${ENDCOLOR}"
 sleep 3s
 
+echo "[*] Everything done! Run ./PocketMine-MP.phar to start $NAME"
 exit 0
